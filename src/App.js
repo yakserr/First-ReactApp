@@ -1,14 +1,16 @@
-// import logo from "./logo.svg";
-// import "./App.css";
-import CounterExample from "./Components/CounterExample";
+import "./App.css";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
 import HelloWorld from "./Components/HelloWorld";
 
 function App() {
 	return (
 		<div>
+			<Header />
+
 			<HelloWorld name="base" />
 
-			<CounterExample />
+			<Footer />
 		</div>
 	);
 }
