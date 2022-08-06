@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
 	return (
-		<div>
+		<div className="relative pb-10 min-h-screen">
 			<Router>
 				<Header />
 
@@ -16,7 +16,7 @@ function App() {
 					<Routes>
 						<Route path="/" element={<Home />} />
 						<Route path="/about" element={<About />} />
-						<Route path="/product/:id" element={<Product />} />
+						<Route path="/products/:id" element={<Product />} />
 					</Routes>
 				</div>
 
